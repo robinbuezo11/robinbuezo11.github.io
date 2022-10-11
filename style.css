@@ -1,13 +1,41 @@
-.container-fluid {
-    background-color: dodgerblue;
+body {
+    font-family: 'Barlow', sans-serif;
 }
 
 #name {
-    justify-items: center;
+    border-bottom: solid 1vh;
+    border-color: royalblue;
 }
 
 #name-text {
     text-align: center;
-    font-size: 15mm;
-    padding: 10% 0 10% 0;
+    font-size: 7vw;
+}
+
+#name-career {
+    text-align: center;
+    font-size: 3vw;
+}
+
+#header {
+    margin: 2%;
+    padding: 2%;
+}
+
+#content {
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#img1 {
+    width: 70%;
+}
+
+#desc {
+    font-size: 1.8vw;
+    text-align: justify;
+    margin: 0% 0% 0% 2%;
+    padding-right: 2%;
 }
