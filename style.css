@@ -2,3 +2,12 @@
     background-color: dodgerblue;
 }
 
+#name {
+    justify-items: center;
+}
+
+#name-text {
+    text-align: center;
+    font-size: 15mm;
+    padding-top: 120px;
+}
