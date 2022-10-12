@@ -1,20 +1,20 @@
 body {
     font-family: 'Barlow', sans-serif;
+    color: #2a0a5a;
 }
 
 #name {
-    border-bottom: solid 1vh;
-    border-color: royalblue;
+    border-bottom: solid 1vh #2a0a5a;
 }
 
 #name-text {
     text-align: center;
-    font-size: 7vw;
+    font-size: 6.5vmax;
 }
 
 #name-career {
     text-align: center;
-    font-size: 3vw;
+    font-size: 3.5vmax;
 }
 
 #header {
@@ -25,7 +25,6 @@ body {
 #content {
     padding-left: 2%;
     padding-right: 2%;
-    margin-left: 2%;
     margin-right: 2%;
 }
 
@@ -34,8 +33,84 @@ body {
 }
 
 #desc {
-    font-size: 1.8vw;
+    font-size: 1.8vmax;
     text-align: justify;
-    margin: 0% 0% 0% 2%;
+    margin: 2% 2% 0% 2%;
     padding-right: 2%;
+    padding-left: 2%;
+}
+
+#contact {
+    margin-left: 2%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 10%;
+    background-color: #090979;
+    background: linear-gradient(#090979, #056dbb);
+    color: white;
+    text-align: center;
+}
+
+#date-text {
+    padding-top: 5%;
+    font-size: 2.5vmax;
+    padding-bottom: 5%;
+    border-bottom: solid 0.5vh white;
+}
+
+#contact-text {
+    margin-top: 15%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2.5vmax;
+    font-weight: bold;
+}
+
+#contact-data {
+    margin-top: 5%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2.5vmax;
+}
+
+#icon {
+    margin-top: 5vh;
+    font-size: 5vmax;
+}
+
+#info-text {
+    margin: 4% 2% 0% 2%;
+    padding-right: 2%;
+    padding-left: 2%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2.5vmax;
+    font-weight: bold;
+}
+
+#data-title1 {
+    color: rgb(74, 74, 74);
+    font-size: 1.6vmax;
+    text-align: justify;
+    margin: 2% 2% 0% 2%;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+
+#data-title2 {
+    color: rgb(74, 74, 74);
+    font-size: 1.2vmax;
+    text-align: justify;
+    margin: 2% 2% 0% 2%;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+
+li {
+    color: rgb(74, 74, 74);
+    font-size: 1.2vmax;
+    text-align: justify;
+    margin: 2% 2% 0% 8%;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+
+ul {
+    line-height: 1.5em;
 }
