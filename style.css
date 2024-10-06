@@ -1,7 +1,7 @@
 body {
     font-family: 'Barlow', sans-serif;
     color: #2a0a5a;
-    border: solid 1em; 
+    border: solid 1em;
     border-color: rgb(22, 38, 79);
 }
 
@@ -20,8 +20,8 @@ body {
 }
 
 #header {
-    margin: 2%;
-    padding: 2%;
+    margin: 0 2% 2% 0%;
+    padding: 2% 2% 0% 2%;
 }
 
 #content {
@@ -31,7 +31,7 @@ body {
 }
 
 #img1 {
-    width: 70%;
+    height: 20vmax;
 }
 
 #desc {
